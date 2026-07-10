@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: student-reg-container
-        image: your-dockerhub-username/student-reg-war:latest
+        image: shivasai4520/student-reg-war:latest
         ports:
         - containerPort: 8080
         resources:
