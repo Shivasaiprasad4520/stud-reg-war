@@ -1,0 +1,15 @@
+grafana:
+  service:
+    type: LoadBalancer
+    port: 80
+  adminPassword: "admin123"  # change for realtime setup
+  defaultDashboardsEnabled: true
+
+prometheus:
+  service:
+    type: LoadBalancer
+    port: 9090
+
+prometheusOperator:
+  admissionWebhooks:
+    enabled: true
