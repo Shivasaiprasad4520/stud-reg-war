@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_HUB_USER = "shivasai4520
+        DOCKER_HUB_USER = "shivasai4520"
         IMAGE_NAME      = "student-reg-war"
         REGION          = "us-east-1"
         CLUSTER_NAME    = "stud-reg-cluster"
